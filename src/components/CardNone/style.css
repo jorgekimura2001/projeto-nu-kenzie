@@ -1,0 +1,38 @@
+
+h2{
+    margin: 1.688rem 0;
+    width: 27.5rem;
+    line-height: 2.125rem;
+    color: #343A40;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+.zero{
+    width: 35.125rem;
+    height: 5.375rem;
+    background: #F8F9FA;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.gray-2{
+    background-color: #E9ECEF;
+    width: 0.25rem;
+    height: inherit;
+}
+.div1{
+    width: 20.625rem;
+    height: 0.75rem;
+    background-color: #E9ECEF;
+}
+.div2{
+    width: 4.75rem;
+    height: 0.75rem;
+    background-color: #E9ECEF;
+    margin-top: 0.813rem;
+}
+.father{
+    position: relative;
+    bottom: 60px;
+    left: 11px;
+}

@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+.form{
+  height: 29rem;
+  display: flex;
+  flex-direction: column;
+  width: 22.75rem;
+}
+
+/* @media screen and (min-width: 946px) {
+  main{
+    flex-direction: row;
+  }
+  .form{
+    width: 22.75rem;
+  }
+  .label_description{
+    margin-left: 0;
+  }
+  .description > input{
+    margin-left: 0;
+    width: 18.5rem;;
+}
+  .values{
+    width: 19.75rem;
+  }
+  .value{
+    margin-right: 2.25rem;
+    width: 8rem;
+  }
+} */

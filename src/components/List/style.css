@@ -1,0 +1,38 @@
+.list__transactions{
+   display: flex;
+   flex-direction: column;
+   margin-left: 3.625rem;
+   width: 35.125rem;
+}
+.filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.625rem;
+
+}
+.filters > h3 {
+    color: #212529;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.875rem;
+}
+.allTransaction, .entryTransaction{
+    margin-right: 1rem;
+}
+.exitTransaction, .entryTransaction, .allTransaction{
+    cursor: pointer;
+    color: #343A40;
+    font-weight: 600;
+    padding: 0.656rem 0.938rem;
+    border: 1.4px solid transparent;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+}
+.exitTransaction:hover, .entryTransaction:hover, .allTransaction:hover{
+    color: #fff;
+    background: #FD377E;
+    border: 1.4px solid #FD377E;
+    border-radius: 8px;
+}
