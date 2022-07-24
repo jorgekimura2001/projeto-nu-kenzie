@@ -13,7 +13,12 @@ function Card({transaction , index, removeTransaction}){
                     <h4>{transaction.description}</h4>
                     <span className='span__category'>Entrada</span>
                 </div>
-                <p>R$ {transaction.value}</p>
+                {
+                    transaction.value.includes(',') || transaction.value.includes('.') ? 
+                    <p>R$ {transaction.value}</p>
+                    :
+                    <p>R$ {transaction.value},00</p>
+                }
                 <button className='btn__remove' onClick={() => removeTransaction(index)}><FaTrash/></button>
             </div>
             :
@@ -23,7 +28,12 @@ function Card({transaction , index, removeTransaction}){
                 <h4>{transaction.description}</h4>
                 <span className='span__category'>Despesas</span>
             </div>
-            <p>R$ {transaction.value}</p>
+            {
+                transaction.value.includes(',') || transaction.value.includes('.') ? 
+                <p>R$ {transaction.value}</p>
+                :
+                <p>R$ {transaction.value},00</p>
+            }
             <button className='btn__remove' onClick={() => removeTransaction(index)}><FaTrash/></button>
         </div>
 

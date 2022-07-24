@@ -12,7 +12,8 @@ function TotalMoney ({listTransactions}){
                 return acc += Number(actual.value)
             }else{
                 if(acc > 0){
-                    return acc -= Number(actual.value)
+                    acc = acc - Number(actual.value).toFixed(2)
+                    return acc.toFixed(2)
                 }else{
                     return 0
                 }

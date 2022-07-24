@@ -1,0 +1,48 @@
+.homepage{
+    background-color: #212529;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info__home{
+    display: flex;
+    flex-direction: column;
+    width: 21.688rem;
+    height: 17.125rem;
+    margin-right: 3rem;
+}
+.info__home > img{
+    width: 7.688rem;
+    height: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+.title__main{
+    margin-bottom: 1.75rem;
+    color: #fff;
+    line-height: 3rem;
+    font-size: 2.375rem;
+    font-weight: 800;
+}
+.subtitle{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    color: #fff;
+    width: 16.25rem;
+    margin-bottom: 1.75rem;
+}
+.btn__to-homepage{
+    width: 15.063rem;
+    height: 3rem;
+    cursor: pointer;
+    background: #FD377E;
+    border: 2px solid #FD377E;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.813rem 1.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.188rem;
+}
