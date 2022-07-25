@@ -1,3 +1,4 @@
+import cardNones from '../../assets/no-value-cards.svg'
 import './style.css'
 
 function CardNone (){
@@ -6,26 +7,8 @@ function CardNone (){
             <h2 className='none__transaction'>
                 Você ainda não possui nenhum lançamento
             </h2>
-        <div className='zero'>
-            <div className="gray-2"></div>
-            <div className='father'>
-                <div className='div1'></div>
-                <div className='div2'></div>
-            </div>
-        </div>
-        <div className='zero'>
-            <div className="gray-2"></div>
-            <div className='father'>
-                <div className='div1'></div>
-                <div className='div2'></div>
-            </div>
-        </div>
-        <div className='zero'>
-            <div className="gray-2"></div>
-            <div className='father'>
-                <div className='div1'></div>
-                <div className='div2'></div>
-            </div>
+        <div>
+           <img className='img__noneValue' src={cardNones} alt=""  />
         </div>
         </>
     )

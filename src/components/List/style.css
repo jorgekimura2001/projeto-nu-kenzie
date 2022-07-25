@@ -1,15 +1,14 @@
 .list__transactions{
-   display: flex;
-   flex-direction: column;
-   margin-left: 3.625rem;
-   width: 35.125rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
 }
 .filters{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 3.625rem;
-
 }
 .filters > h3 {
     color: #212529;
@@ -18,7 +17,7 @@
     line-height: 1.875rem;
 }
 .allTransaction, .entryTransaction{
-    margin-right: 1rem;
+    margin-right: 0.2rem;
 }
 .exitTransaction, .entryTransaction, .allTransaction{
     cursor: pointer;
@@ -27,7 +26,7 @@
     padding: 0.656rem 0.938rem;
     border: 1.4px solid transparent;
     border-radius: 8px;
-    font-size: 0.875rem;
+    font-size: 13px;
     line-height: 1.188rem;
 }
 .exitTransaction:hover, .entryTransaction:hover, .allTransaction:hover{
@@ -35,4 +34,16 @@
     background: #FD377E;
     border: 1.4px solid #FD377E;
     border-radius: 8px;
+}
+
+@media (min-width: 1024px){
+    .list__transactions{
+        padding: initial;
+    }
+    .filters{
+        flex-direction: row;
+    }
+    .allTransaction, .entryTransaction{
+        margin-right: 1rem;
+    }
 }

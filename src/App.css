@@ -1,40 +1,27 @@
-.App {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 main{
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0 15px;
 }
 .form{
-  height: 29rem;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 22.75rem;
+  width: 100%;
+  margin-bottom: 16px;
 }
 
-/* @media screen and (min-width: 946px) {
+@media (min-width: 1024px) {
   main{
+    padding: 0 100px;
     flex-direction: row;
+    width: initial;
   }
   .form{
-    width: 22.75rem;
+    width: initial;
+    margin-right: 58px;
   }
-  .label_description{
-    margin-left: 0;
-  }
-  .description > input{
-    margin-left: 0;
-    width: 18.5rem;;
 }
-  .values{
-    width: 19.75rem;
-  }
-  .value{
-    margin-right: 2.25rem;
-    width: 8rem;
-  }
-} */

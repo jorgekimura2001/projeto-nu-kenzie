@@ -18,12 +18,13 @@ function HomePage ({setIsEnter}){
                 <button onClick={handleToHome} className='btn__to-homepage'>Iniciar</button>
             </div>
             <div className='layout'>
-                <div style={{
+                {/* <div style={{
                     background: `url(${layout})`,
                     width: '37.063rem',
                     height: '37.063rem',
-                }}>
-                </div>
+                }}> */}
+                {/* </div> */}
+                <img src={layout} alt="" />
             </div>
            
         </div>
