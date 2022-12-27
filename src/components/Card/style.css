@@ -56,9 +56,7 @@ div > p{
     .divTransaction{
         width: 100%;
     }
-    .divTransaction > div{
-        justify-content: initial;
-    }
+    
     .info{
         margin-right: 41px;
         width: 337px;
@@ -69,5 +67,4 @@ div > p{
     div > p {
         margin-right: 27px;
     }
-   
 }
